@@ -1,0 +1,25 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+}
+
+.introduction{
+    /* border: 1px solid red; */
+    margin: 1% 4%;
+    width: 70%;
+}
+
+.heading{
+    /* font-size: xx-large; */
+    margin-bottom: 4%;
+    font-size: 8vh;
+    font-weight: bold;
+    color: rgb(108, 98, 173);
+}
+
+.para{
+    color: rgb(193, 179, 179);
+    font-size: x-large;
+    /* margin-bottom: 4%; */
+}

@@ -15,6 +15,7 @@ const App = () => {
       <Experience />
       <Breakline />
       <Projects/>
+      <Breakline />
     </div>
   );
 };

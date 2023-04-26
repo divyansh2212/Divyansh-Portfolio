@@ -4,6 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import styles from "./Timeline.module.css"
 import { Icon } from "@iconify/react";
 
 const Timeline = ({ data }) => {
@@ -35,7 +36,7 @@ const Timeline = ({ data }) => {
               </h4>
               <ul style={{ margin: "4% 2%" }}>
                 {work.responsibilities.map((points) => {
-                  return <li>{points}</li>;
+                  return <li className={styles.list} >{points}</li>;
                 })}
               </ul>
             </VerticalTimelineElement>

@@ -3,6 +3,9 @@
     align-items: center;
     /* background-color: black; */
     color: white;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
 }
 
 .list {
@@ -13,7 +16,7 @@
 
 .listitems {
     margin: 4%;
-    font-size: x-large;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     width: fit-content;

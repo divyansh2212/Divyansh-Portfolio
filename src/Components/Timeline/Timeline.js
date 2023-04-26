@@ -6,25 +6,41 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { Icon } from "@iconify/react";
 
-const Timeline = () => {
+const Timeline = ({ data }) => {
   return (
     <div>
       <VerticalTimeline>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="April 2023 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<Icon icon="ic:round-work-outline" />}
-        >
-          <h3 className="vertical-timeline-element-title">Educator Associate</h3>
-          <h4 className="vertical-timeline-element-subtitle">Remote</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
+        {data.map((work) => {
+          return (
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: `${work.color}`, color: "#fff" }}
+              contentArrowStyle={{
+                borderRight: `7px solid  ${work.color}`,
+              }}
+              date={work.tenure}
+              iconStyle={{ background: "rgb(190, 56, 26)", color: "#fff" }}
+            >
+              <h3
+                className="vertical-timeline-element-title"
+                style={{ fontSize: "xx-large", color: "black" }}
+              >
+                {work.company}
+              </h3>
+              <h4
+                style={{ fontSize: "large", fontStyle: "italic" }}
+                className="vertical-timeline-element-subtitle"
+              >
+                {work.title}
+              </h4>
+              <ul style={{ margin: "4% 2%" }}>
+                {work.responsibilities.map((points) => {
+                  return <li>{points}</li>;
+                })}
+              </ul>
+            </VerticalTimelineElement>
+          );
+        })}
       </VerticalTimeline>
     </div>
   );

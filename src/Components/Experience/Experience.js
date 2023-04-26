@@ -1,14 +1,15 @@
-import React from 'react'
-import styles from "./Experience.module.css"
-import Timeline from '../Timeline/Timeline'
+import React from "react";
+import styles from "./Experience.module.css";
+import Timeline from "../Timeline/Timeline";
+import { data } from "./data";
 
 const Experience = () => {
   return (
     <div>
-        <h1 className={styles.heading}>Experience</h1>
-        <Timeline/>
+      <h1 className={styles.heading}>Experience</h1>
+      <Timeline data={data} />
     </div>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

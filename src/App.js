@@ -8,6 +8,7 @@ import Projects from "./Components/Projects/Projects.js";
 import Skills from "./Components/Skills/Skills.js";
 import Footer from "./Components/Footer/Footer.js";
 import Achievements from "./Components/Achievements/Achievements.js";
+import ContactForm from "./Components/Contact Form/ContactForm.js";
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
       <Skills/>
       <Breakline />
       <Achievements/>
+      <Breakline/>
+      <ContactForm/>
       <Footer/>
     </div>
   );

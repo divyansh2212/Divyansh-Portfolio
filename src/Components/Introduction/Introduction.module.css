@@ -1,24 +1,31 @@
-.mainContainer{
+.mainContainer {
     display: flex;
     align-items: center;
     height: 75vh;
 }
 
-.introduction{
-    /* border: 1px solid red; */
+.introduction {
     margin: 1% 4%;
     width: 70%;
 }
 
-.heading{
-    /* font-size: xx-large; */
+.img {
+    max-width: 25%;
+    transition: transform 0.3s ease;
+}
+
+.img:hover {
+    transform: translate(5px, 5px);
+}
+
+.heading {
     margin-bottom: 4%;
     font-size: 8vh;
     font-weight: bold;
     color: rgb(108, 98, 173);
 }
 
-.para{
+.para {
     color: rgb(193, 179, 179);
     font-size: xx-large;
 }

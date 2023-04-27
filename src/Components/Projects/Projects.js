@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 const Projects = () => {
   const classes = useStyles();
   return (
-    <div>
+    <div id="projects">
       <h1 className={styles.heading}>Projects</h1>
       <Grid
         container

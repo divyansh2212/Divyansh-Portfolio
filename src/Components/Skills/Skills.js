@@ -5,7 +5,7 @@ import { familiar } from "./familiar.js";
 
 const Skills = () => {
   return (
-    <div className={styles.container}>
+    <div id="skills" className={styles.container}>
       <h1 className={styles.heading}>Skills</h1>
       <div className={styles.inner}>
         <h2 className={styles.innerheading}>Proficient</h2>

@@ -6,8 +6,8 @@ const Introduction = () => {
   return (
     <div className={styles.mainContainer}>
       <img
+        className={styles.img}
         src="https://typeless.io/static/media/coding.6d171da87a4854819b72.png"
-        style={{ maxWidth: "25%" }}
       ></img>
       <div className={styles.introduction}>
         <div className={styles.heading}>
@@ -26,7 +26,9 @@ const Introduction = () => {
           />
         </div>
         <p className={styles.para}>
-          My name is Divyansh Mittal and I'm a Full Stack Developer and a problem solver from Delhi, India. I am continuously striving to improve my problem solving skills.
+          My name is Divyansh Mittal and I'm a Full Stack Developer and a
+          problem solver from Delhi, India. I am continuously striving to
+          improve my problem solving skills.
           <br />
           This is my digital garden, where I write about the things I'm working
           on and share what I've learned. 😊

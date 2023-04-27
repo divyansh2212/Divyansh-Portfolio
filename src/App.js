@@ -5,6 +5,9 @@ import styles from "./App.module.css";
 import Experience from "./Components/Experience/Experience.js";
 import { Breakline } from "./Components/Breakline.js";
 import Projects from "./Components/Projects/Projects.js";
+import Skills from "./Components/Skills/Skills.js";
+import Footer from "./Components/Footer/Footer.js";
+import Achievements from "./Components/Achievements/Achievements.js";
 
 const App = () => {
   return (
@@ -16,6 +19,10 @@ const App = () => {
       <Breakline />
       <Projects/>
       <Breakline />
+      <Skills/>
+      <Breakline />
+      <Achievements/>
+      <Footer/>
     </div>
   );
 };

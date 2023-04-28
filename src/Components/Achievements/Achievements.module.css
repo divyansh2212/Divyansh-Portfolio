@@ -4,6 +4,32 @@
     margin-left: 3%;
 }
 
-ul{
+.point_list {
+    list-style: none;
     color: white;
+    margin:3% 4%;
+    padding: 0;
+}
+
+.point_list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.point_list li:before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.point_list li:before {
+    background-color: #1abc9c;
 }

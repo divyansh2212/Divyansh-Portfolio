@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./ContactForm.module.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsInstagram } from "react-icons/bs";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -60,8 +60,9 @@ const ContactForm = () => {
         </div>
         <div className={styles.rightPart}>
           <div>
-            Here is a good spot for a message to your readers to let them know
-            how best to reach out to you.
+            Let's start a conversation! Whether you have a question, want to
+            discuss a project, or just want to say hi, I'd love to hear from
+            you. Fill out the form below and let's connect.
           </div>
           <a
             className={styles.anchor}
@@ -76,6 +77,14 @@ const ContactForm = () => {
             target="_blank"
           >
             <AiFillGithub />
+            &nbsp;divyansh2212
+          </a>
+          <a
+            className={styles.anchor}
+            href="https://www.linkedin.com/in/divyansh2212/"
+            target="_blank"
+          >
+            <AiFillLinkedin />
             &nbsp;divyansh2212
           </a>
         </div>

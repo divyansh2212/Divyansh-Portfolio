@@ -28,6 +28,12 @@
     align-items: center;
     justify-items: center;
     font-size: large;
+    transition: transform 0.2s, box-shadow 0.2s
+}
+
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .item img {

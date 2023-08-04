@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./ContactForm.module.css";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsInstagram } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const ContactForm = () => {
@@ -67,6 +66,7 @@ const ContactForm = () => {
           <a
             className={styles.anchor}
             href="mailto:mittaldivyansh2212@gmail.com"
+            rel="noreferrer"
           >
             <HiOutlineMail />
             &nbsp;mittaldivyansh2212@gmail.com
@@ -75,6 +75,7 @@ const ContactForm = () => {
             className={styles.anchor}
             href="https://github.com/divyansh2212"
             target="_blank"
+            rel="noreferrer"
           >
             <AiFillGithub />
             &nbsp;divyansh2212
@@ -83,6 +84,7 @@ const ContactForm = () => {
             className={styles.anchor}
             href="https://www.linkedin.com/in/divyansh2212/"
             target="_blank"
+            rel="noreferrer"
           >
             <AiFillLinkedin />
             &nbsp;divyansh2212

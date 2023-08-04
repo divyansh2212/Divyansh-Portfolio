@@ -16,10 +16,15 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.imgcontainer}>
-        <a href="https://www.linkedin.com/in/divyansh2212/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/divyansh2212/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src="https://avatars.githubusercontent.com/u/90034292?v=4"
             className={styles.img}
+            alt=""
           />
         </a>
       </div>

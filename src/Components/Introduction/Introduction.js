@@ -8,6 +8,7 @@ const Introduction = () => {
       <img
         className={styles.img}
         src="https://typeless.io/static/media/coding.6d171da87a4854819b72.png"
+        alt=""
       ></img>
       <div className={styles.introduction}>
         <div className={styles.heading}>

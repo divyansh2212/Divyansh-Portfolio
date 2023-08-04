@@ -5,7 +5,6 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import styles from "./Timeline.module.css";
-import { Icon } from "@iconify/react";
 
 const Timeline = ({ data }) => {
   return (

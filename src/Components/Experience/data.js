@@ -1,10 +1,25 @@
 export const data = [
   {
+    company: "Amazon",
+    title: "Software Dev Engineer Intern",
+    tenure: "January 2024 -- June 2024",
+    responsibilities: [
+      "Worked on enhancing the reliability of the regression frameworks which were owned by the team.",
+      "Implemented service throttling and integrated AWS AppConfig for centralized policy management for 20+ clients.",
+      "Enhanced the regression framework with a UI update and a client-side auto-retry mechanism to handle AWS Lambda cold starts using React and Guice.",
+      "Fixed tool functionality in the FE region by implementing an override mechanism for API calls from a different region, achieving a 100% reduction in downtime."
+    ],
+    color: "rgb(100, 80, 90)",
+  },
+  {
     company: "DataKnobs",
     title: "Full Stack Developer",
-    tenure: "August 2023 -- Present",
+    tenure: "August 2023 -- January 2024",
     responsibilities: [
-      "Joined the company as a Full Stack Developer intern, contributing to various frontend and backend projects.",
+      "Developed backend APIs using Node.js for efficient data management and frontend communication.",
+      "Designed and implemented dynamic UIs with React.js, resulting in a 30% increase in user engagement.",
+      "Integrated secure Google Sign-In with Firebase Authentication.",
+      "Utilized Firebase functions for scalable and cost-effective serverless application development."
     ],
     color: "rgb(125, 166, 140)",
   },

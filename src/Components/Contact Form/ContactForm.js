@@ -5,8 +5,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
+    subject: "",
     message: "",
   });
 
@@ -19,7 +18,7 @@ const ContactForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const mailToLink = `mailto:gurmeetsingh222003@gmail.com?subject=Contact Form Submission&body=Name: ${formData.name}%0AEmail: ${formData.email}%0AMessage: ${formData.message}`;
+    const mailToLink = `mailto:mittaldivyansh2212@gmail.com?subject= ${formData.subject}&body=${formData.message}`;
     window.location.href = mailToLink;
   };
 
@@ -35,16 +34,9 @@ const ContactForm = () => {
           <form className={styles.form} onSubmit={handleSubmit}>
             <input
               type="text"
-              name="name"
-              placeholder="Name"
-              value={formData.name}
-              onChange={handleChange}
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              value={formData.email}
+              name="subject"
+              placeholder="Subject"
+              value={formData.subject}
               onChange={handleChange}
             />
             <textarea
@@ -61,7 +53,7 @@ const ContactForm = () => {
           <div>
             Let's start a conversation! Whether you have a question, want to
             discuss a project, or just want to say hi, I'd love to hear from
-            you. Fill out the form below and let's connect.
+            you. Fill out the form and let's connect.
           </div>
           <a
             className={styles.anchor}

@@ -43,7 +43,8 @@
     ]
   },
   "devDependencies": {
-    "@iconify/react": "^4.1.0"
+    "@iconify/react": "^4.1.0",
+    "ajv": "^7.2.4"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",

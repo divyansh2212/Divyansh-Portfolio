@@ -20,6 +20,11 @@ export const proficient = [
         "alt" : "c logo"
     },
     {
+        "name": "Java",
+        "link" : "https://i.imgur.com/39CQqDS.png",
+        "alt" : "java logo"
+    },
+    {
         "name": "JavaScript",
         "link" : "https://i.imgur.com/8qdspVx.png",
         "alt" : "javascript logo"
@@ -45,6 +50,11 @@ export const proficient = [
         "alt" : "nodejs logo"
     },
     {
+        "name": "Spring",
+        "link" : "https://spring.io/img/spring-2.svg",
+        "alt" : "spring logo"
+    },
+    {
         "name": "BootStrap",
         "link" : "https://i.imgur.com/YcQq9Ni.png",
         "alt" : "bootstrap logo"
@@ -53,5 +63,20 @@ export const proficient = [
         "name": "Tailwind CSS",
         "link" : "https://i.imgur.com/EFMt05p.png",
         "alt" : "tailwind logo"
+    },
+    {
+        "name": "MySQL",
+        "link" : "https://i.imgur.com/4K0Ybo7.png",
+        "alt" : "mysql logo"
+    },
+    {
+        "name": "Firebase",
+        "link" : "https://i.imgur.com/Ji0FreX.png",
+        "alt" : "firebase logo"
+    },
+    {
+        "name": "Amazon Web Services",
+        "link" : "https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Emblem.png",
+        "alt" : "aws logo"
     },
 ]

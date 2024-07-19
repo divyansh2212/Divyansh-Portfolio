@@ -6,7 +6,7 @@ import { data } from "./data";
 const Experience = () => {
   return (
     <div id="experience">
-      <h1 className={styles.heading}>Experience</h1>
+      <h1 className={styles.heading}>Work Experience</h1>
       <Timeline data={data} />
     </div>
   );

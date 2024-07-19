@@ -54,7 +54,7 @@ const SimpleCard = ({ project }) => {
 
         <ul variant="body2" className={classes.bullet}>
           {project.points.map((point) => {
-            return <li>{point}</li>;
+            return <li className={styles.list}>{point}</li>;
           })}
         </ul>
       </CardContent>

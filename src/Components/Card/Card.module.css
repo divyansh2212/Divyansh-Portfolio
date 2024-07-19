@@ -5,3 +5,7 @@
     width: 100%;
     border: 2px solid rgb(13, 3, 116);
 }
+
+.list {
+    line-height: 1.5;
+}

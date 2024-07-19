@@ -3,14 +3,12 @@ export const data = [
     name: "HerCare",
     tech: "React.JS | Node.JS | HTML5 | CSS | JavaScript | Firebase | MongoDB | Material UI",
     points: [
-      "Developed the front-end of a platform for women safety using React that allows users to share incidents and safety tips anonymously.",
-      "Implemented user interface and functionality using React components and hooks and Material UI.",
-      "Utilized Firebase, and Google Maps API to integrate data storage and map functionality.",
-      "Responsible for the complete front-end development process, including design, coding, and testing.",
+      "Developed a full-stack web platform for anonymous reporting and aggregation of personal stories.",
+      "Implemented interactive geolocation-based data visualization using Google Maps API to pinpoint local trends with latitudes and longitudes.",
+      "Designed and implemented a secure backend with Node.js and MongoDB for reliable storage of crime incidents reported by users, tracking 13 types of crimes.",
     ],
     image:
-      "https://camo.githubusercontent.com/d7f4cb05ee1336ab919177ee045144d4885f2e38d8253a5c1da04a635b96473b/68747470733a2f2f692e696d6775722e636f6d2f696d43636b614a2e6a7067",
-    github: "https://github.com/divyansh2212/HerCare",
+      "https://i.imgur.com/imCckaJ.jpg",
     live: "https://hercare-women.web.app/",
   },
   {
